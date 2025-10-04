@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Xin chào", "Chào bạn"],
+      "responses": ["Chào bạn! Mình là Nova, chatbot thân thiện của bạn.", "Xin chào! Hôm nay bạn thế nào?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tạm biệt", "Bye", "Hẹn gặp lại"],
+      "responses": ["Tạm biệt nhé!", "Hẹn gặp lại bạn sau!"]
+    },
+    {
+      "tag": "mood",
+      "patterns": ["Tôi đang buồn", "Tôi vui quá", "Tôi mệt"],
+      "responses": ["Ồ, mình hiểu cảm giác đó.", "Nghe có vẻ bạn cần nghỉ ngơi đấy!", "Tốt quá, vui lên nhé!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Bạn làm được gì?", "Bạn có thể giúp gì?"],
+      "responses": ["Mình có thể nói chuyện, giúp bạn học, hoặc đơn giản là nghe bạn tâm sự!"]
+    }
+  ]
+}
